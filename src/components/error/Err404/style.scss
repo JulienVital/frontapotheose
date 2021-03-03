@@ -1,0 +1,13 @@
+@use 'src/styles/vars' as v;
+
+.err404{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: v.$blue-color;
+    
+    &__img{
+      max-height: 100vh;
+    }
+}
